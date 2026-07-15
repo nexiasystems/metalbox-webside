@@ -44,7 +44,17 @@ export async function POST(request: Request) {
     "Mensaje:",
     data.message ?? "-",
   ].filter(Boolean);
-
+try {
+  await fetch("https://services.leadconnectorhq.com/hooks/6Nw9oiibGb2OtdxH7EcY/webhook-trigger/fb436902-c820-4d95-b167-7b583a0006a2", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  });
+} catch (error) {
+  console.error("Error enviando a GoHighLevel:", error);
+}
   const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_SECURE, QUOTE_TO } = process.env;
 
   // SMTP preparado: si no hay credenciales configuradas, registramos la solicitud
