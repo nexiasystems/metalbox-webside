@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "home": {
+      "title": "Metalbox Prefabricats Modulars | Construcció Modular a Barcelona i Espanya",
+      "description": "Dissenyem, fabriquem i instal·lem construcció modular per a empreses, administracions públiques i projectes residencials. Més de 35 anys d'experiència. Sol·liciti pressupost."
+    },
+    "empresa": {
+      "title": "Empresa | Metalbox Prefabricats Modulars",
+      "description": "La història de Metalbox: més de 35 anys d'enginyeria modular liderada per Jesús Rabadán, amb projectes a Europa, Àfrica i l'Orient Mitjà."
+    },
+    "soluciones": {
+      "title": "Solucions Modulars | Metalbox Prefabricats",
+      "description": "Construcció modular, escoles, contenidors, tiny houses, oficines, naus industrials, sanitaris, instal·lacions esportives, self storage, oficines de vendes, cabines de triatge i camerinos."
+    },
+    "proyectos": {
+      "title": "Projectes | Metalbox Prefabricats Modulars",
+      "description": "Projectes de construcció modular executats a Espanya i a nivell internacional: residencial, educatiu, sanitari i industrial."
+    },
+    "faq": {
+      "title": "Preguntes Freqüents | Metalbox Prefabricats Modulars",
+      "description": "Resolem els dubtes més habituals sobre construcció modular: terminis, permisos, personalització, manteniment i pressupostos."
+    },
+    "contacto": {
+      "title": "Contacte | Metalbox Prefabricats Modulars",
+      "description": "Parli amb el nostre equip a Barcelona. Telèfon, WhatsApp i correu. Sol·liciti pressupost per al seu projecte modular."
+    }
+  },
+  "nav": {
+    "home": "Inici",
+    "company": "Empresa",
+    "solutions": "Solucions",
+    "projects": "Projectes",
+    "faq": "FAQ",
+    "contact": "Contacte",
+    "quote": "Sol·licitar pressupost"
+  },
+  "hero": {
+    "title": "Construcció modular sense límits",
+    "subtitle": "Dissenyem, fabriquem i instal·lem solucions modulars per a empreses, administracions públiques i projectes residencials amb l'experiència de més de 35 anys al sector.",
+    "ctaPrimary": "Sol·licitar pressupost",
+    "ctaSecondary": "Veure projectes",
+    "scroll": "Descobrir"
+  },
+  "trust": {
+    "eyebrow": "Per què Metalbox",
+    "title": "Enginyeria que genera confiança",
+    "items": [
+      {
+        "title": "Més de 35 anys d'experiència",
+        "text": "Trajectòria contrastada en construcció modular i industrial, amb direcció tècnica a cada fase del projecte."
+      },
+      {
+        "title": "Projectes nacionals i internacionals",
+        "text": "Execució a Espanya, Europa, Àfrica i l'Orient Mitjà sota estàndards internacionals de qualitat i seguretat."
+      },
+      {
+        "title": "Especialistes en construcció modular",
+        "text": "Un únic interlocutor des del disseny fins al lliurament: fabricació controlada, terminis certs i costos tancats."
+      },
+      {
+        "title": "Compromís amb la qualitat",
+        "text": "Supervisió tècnica, control d'execució i assegurament de qualitat documentat a cada lliurament."
+      },
+      {
+        "title": "Innovació",
+        "text": "Sistemes constructius industrialitzats, eficients i sostenibles que redueixen terminis i residus d'obra."
+      },
+      {
+        "title": "Enginyeria",
+        "text": "Planificació integral de recursos, logística i muntatge executada amb precisió de planta industrial."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Solucions",
+    "title": "Un sistema constructiu. Infinites aplicacions.",
+    "intro": "Cada solució Metalbox es projecta, es fabrica en entorn controlat i s'instal·la claus en mà. Menys terminis, menys imprevistos, més control.",
+    "viewAll": "Veure totes les solucions",
+    "card": "Veure solució"
+  },
+  "process": {
+    "eyebrow": "Procés",
+    "title": "Del plànol al lliurament, sense fricció",
+    "steps": [
+      {
+        "title": "Estudiem",
+        "text": "Analitzem la seva necessitat, l'emplaçament i la normativa aplicable per definir la solució òptima."
+      },
+      {
+        "title": "Dissenyem",
+        "text": "Projectem cada mòdul amb criteris d'eficiència, durabilitat i estètica contemporània."
+      },
+      {
+        "title": "Fabriquem",
+        "text": "Producció industrialitzada en entorn controlat, amb qualitat constant i terminis garantits."
+      },
+      {
+        "title": "Transportem",
+        "text": "Logística planificada al detall perquè cada mòdul arribi a l'obra al moment exacte."
+      },
+      {
+        "title": "Instal·lem",
+        "text": "Muntatge ràpid i net, amb supervisió tècnica fins al lliurament claus en mà."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projectes",
+    "title": "Feina real. Resultats mesurables.",
+    "intro": "Selecció de projectes executats: residencial, educatiu, sanitari i industrial.",
+    "filters": {
+      "all": "Tots",
+      "residential": "Residencial",
+      "education": "Educació",
+      "health": "Sanitari",
+      "industrial": "Industrial"
+    },
+    "items": [
+      {
+        "title": "Habitatge modular unifamiliar amb piscina",
+        "category": "residential",
+        "image": "/images/vivienda-modular-1.jpg"
+      },
+      {
+        "title": "Vil·la modular premium en entorn costaner",
+        "category": "residential",
+        "image": "/images/vivienda-modular-2.jpg"
+      },
+      {
+        "title": "Escola modular — aulari complet",
+        "category": "education",
+        "image": "/images/colegio-modular.jpg"
+      },
+      {
+        "title": "Aules modulars equipades claus en mà",
+        "category": "education",
+        "image": "/images/aula-modular-interior.jpg"
+      },
+      {
+        "title": "Mòdul sanitari amb dutxa i lavabo",
+        "category": "health",
+        "image": "/images/modulo-sanitario.jpg"
+      },
+      {
+        "title": "Hissat i instal·lació d'estructura modular",
+        "category": "industrial",
+        "image": "/images/instalacion-modulo.jpg"
+      },
+      {
+        "title": "Camerinos i espais escènics modulars",
+        "category": "industrial",
+        "image": "/images/camerino-modular.jpg"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Sobre Metalbox",
+    "title": "Trenta-cinc anys construint a qualsevol part del món",
+    "p1": "Metalbox neix d'una convicció: la construcció modular no és una alternativa; és la manera més intel·ligent de construir. Darrere d'aquesta convicció hi ha una trajectòria: la de Jesús Rabadán, fundador i director de projectes, amb més de 35 anys dirigint obra modular i industrial a tres continents.",
+    "p2": "Del Congo a Alemanya, passant per França, Gabon i el Líban, Jesús ha liderat equips multidisciplinaris en alguns dels entorns més exigents que existeixen: plantes industrials, projectes sanitaris d'emergència, edificació modular en contextos logístics complexos. Aquesta experiència defineix avui l'estàndard Metalbox: rigor tècnic, terminis complerts i solucions que funcionen al món real.",
+    "p3": "Cada projecte Metalbox es dirigeix amb la mateixa filosofia: excel·lència tècnica, comunicació transparent i resultats sòlids i sostenibles. No prometem. Lliurem.",
+    "quote": "El meu compromís és aportar experiència, rigor i lideratge per convertir cada projecte en un resultat sòlid i sostenible.",
+    "quoteAuthor": "Jesús Rabadán · Fundador",
+    "timelineTitle": "Trajectòria internacional",
+    "timeline": [
+      {
+        "year": "2011",
+        "place": "Congo",
+        "text": "Supervisió d'equips i execució de projectes tècnics de construcció modular i industrial."
+      },
+      {
+        "year": "2013",
+        "place": "França",
+        "text": "Direcció d'obra en projectes modulars i industrials, coordinació d'equips i control de qualitat."
+      },
+      {
+        "year": "2015",
+        "place": "Gabon",
+        "text": "Gestió i execució de projectes industrials en entorns logístics complexos."
+      },
+      {
+        "year": "2021",
+        "place": "Líban",
+        "text": "Lideratge de projectes de construcció modular i optimització de recursos multidisciplinaris."
+      },
+      {
+        "year": "2025",
+        "place": "Alemanya",
+        "text": "Muntatges en plantes de gas i projectes industrials especialitzats, lideratge d'equips."
+      }
+    ],
+    "cta": "Parlem del teu projecte"
+  },
+  "faq": {
+    "eyebrow": "Preguntes freqüents",
+    "title": "Tot el que necessita saber",
+    "items": [
+      {
+        "q": "Què és la construcció modular?",
+        "a": "És un sistema constructiu industrialitzat en què els edificis es fabriquen per mòduls en un entorn controlat i s'assemblen a l'emplaçament final. El resultat: terminis fins a un 60 % més curts, costos tancats i una qualitat constant impossible de garantir en obra tradicional."
+      },
+      {
+        "q": "Quant triga un projecte de construcció modular?",
+        "a": "Depèn de la superfície i el nivell d'acabat, però com a referència: un mòdul estàndard pot estar instal·lat en setmanes i un edifici complet en pocs mesos. La fabricació en planta se solapa amb els treballs de fonamentació, cosa que redueix dràsticament el termini total."
+      },
+      {
+        "q": "Es pot personalitzar una construcció modular?",
+        "a": "Completament. Distribució, façanes, fusteries, instal·lacions, acabats interiors i equipament es projecten a mida de cada client. La industrialització estandarditza el procés, no el disseny."
+      },
+      {
+        "q": "Quins permisos necessito?",
+        "a": "Els mateixos que en construcció tradicional quan l'edifici és permanent: llicència d'obra i projecte tècnic. Per a instal·lacions temporals el tràmit sol ser més àgil. L'assessorem durant tot el procés administratiu."
+      },
+      {
+        "q": "Fabriqueu a tota Espanya?",
+        "a": "Sí. Fabriquem i fem lliuraments i instal·lacions a tot el territori nacional, amb base logística a Barcelona, i comptem amb experiència acreditada en projectes internacionals."
+      },
+      {
+        "q": "Treballeu per a empreses i administracions públiques?",
+        "a": "Sí. Empreses, administracions públiques i clients particulars. Tenim àmplia experiència en licitacions i projectes institucionals: escoles, centres sanitaris, vestidors i edificació industrial."
+      },
+      {
+        "q": "Feu projectes claus en mà?",
+        "a": "És la nostra especialitat: estudi, disseny, fabricació, transport i instal·lació amb un únic interlocutor i responsabilitat integral sobre el resultat."
+      },
+      {
+        "q": "Fabriqueu edificis complets?",
+        "a": "Sí. Des de mòduls individuals fins a edificis complets de diverses plantes: aularis, residències, oficines, centres sanitaris i projectes especials."
+      },
+      {
+        "q": "Quin manteniment requereix una construcció modular?",
+        "a": "El mateix que una edificació convencional de qualitat: revisions periòdiques d'instal·lacions i envolupant. Els materials industrialitzats ofereixen gran durabilitat i les intervencions són més senzilles i econòmiques."
+      },
+      {
+        "q": "Com puc sol·licitar un pressupost?",
+        "a": "Premi qualsevol botó «Sol·licitar pressupost» d'aquest web i completi el formulari, truqui'ns al 638 71 21 08 o escrigui'ns a administracion@metalboxprefabricados.com. Responem amb una proposta ajustada al seu projecte."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Necessites una solució modular?",
+    "text": "Explica'ns el teu projecte i t'enviarem una proposta tècnica i econòmica sense compromís.",
+    "button": "Sol·licita el teu pressupost",
+    "secondary": "Demana assessorament"
+  },
+  "form": {
+    "title": "Sol·licitar pressupost",
+    "subtitle": "Completi el formulari i el nostre equip li respondrà amb una proposta a mida.",
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "clientType": "Tipus de client",
+    "clientParticular": "Particular",
+    "clientCompany": "Empresa",
+    "companyName": "Nom d'empresa",
+    "address": "Adreça",
+    "location": "Ubicació",
+    "province": "Província",
+    "projectType": "Tipus de projecte",
+    "projectTypes": {
+      "vivienda-modular": "Habitatge modular",
+      "construccion-modular": "Construcció modular",
+      "oficinas": "Oficines",
+      "cabinas-de-triaje": "Cabines de triatge",
+      "vestuarios": "Vestidors",
+      "colegios": "Escoles",
+      "hospitales": "Hospitals",
+      "otros": "Altres"
+    },
+    "area": "Àrea",
+    "areas": {
+      "lt100": "Menys de 100 m²",
+      "100-500": "Entre 100 i 500 m²",
+      "500-1000": "Entre 500 i 1000 m²",
+      "gt1000": "Més de 1000 m²"
+    },
+    "message": "Missatge",
+    "rgpd": "He llegit i accepto la política de privacitat i el tractament de les meves dades conforme al RGPD.",
+    "submit": "Sol·licitar pressupost",
+    "sending": "Enviant…",
+    "success": "Sol·licitud enviada correctament. El nostre equip es posarà en contacte amb vostè aviat.",
+    "error": "No s'ha pogut enviar la sol·licitud. Torni-ho a provar o escrigui'ns a administracion@metalboxprefabricados.com.",
+    "required": "Camp obligatori",
+    "close": "Tancar"
+  },
+  "contact": {
+    "eyebrow": "Contacte",
+    "title": "Parlem del teu projecte",
+    "intro": "El nostre equip tècnic l'atén de dilluns a divendres. Truqui'ns, escrigui'ns o sol·liciti pressupost directament.",
+    "phoneLabel": "Telèfon",
+    "emailLabel": "Correu electrònic",
+    "addressLabel": "Ubicació",
+    "scheduleLabel": "Horari",
+    "schedule": "Dilluns a divendres · 8:00 – 18:00",
+    "call": "Trucar",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Enviar email",
+    "person": "Jesús Rabadán · Direcció de projectes"
+  },
+  "solutionPage": {
+    "advantages": "Avantatges",
+    "benefits": "Beneficis",
+    "gallery": "Galeria",
+    "ctaTitle": "Aquest és el teu projecte?",
+    "ctaText": "Sol·licita una proposta tècnica i econòmica adaptada a les teves necessitats.",
+    "backToSolutions": "Totes les solucions",
+    "useCases": "Casos d'ús"
+  },
+  "footer": {
+    "description": "Disseny, fabricació i instal·lació de construcció modular per a empreses, administracions públiques i projectes residencials. Més de 35 anys d'experiència nacional i internacional.",
+    "quickLinks": "Enllaços ràpids",
+    "solutions": "Solucions",
+    "legal": "Legal",
+    "legalNotice": "Avís Legal",
+    "privacy": "Política de Privacitat",
+    "cookiesPolicy": "Política de Cookies",
+    "rights": "Tots els drets reservats.",
+    "follow": "Segueix-nos"
+  },
+  "cookies": {
+    "text": "Utilitzem cookies pròpies i de tercers per analitzar la navegació i millorar els nostres serveis. Pot acceptar totes les cookies o rebutjar les no essencials.",
+    "accept": "Acceptar totes",
+    "reject": "Rebutjar no essencials",
+    "more": "Més informació"
+  },
+  "widgets": {
+    "whatsappLabel": "Obrir WhatsApp",
+    "callLabel": "Trucar per telèfon",
+    "emailLabel": "Enviar correu",
+    "topLabel": "Tornar a dalt"
+  },
+  "legalPages": {
+    "aviso": {
+      "title": "Avís Legal",
+      "body": [
+        "Titular: Metalbox Prefabricados Modulares S.L. · Barcelona, Espanya.",
+        "Contacte: administracion@metalboxprefabricados.com · Tel. 638 71 21 08.",
+        "L'accés i ús d'aquest lloc web atribueix la condició d'usuari i implica l'acceptació de les presents condicions. Els continguts, marques, logotips i imatges d'aquest lloc són titularitat de Metalbox Prefabricados Modulares S.L. o dels seus legítims propietaris, i en queda prohibida la reproducció sense autorització expressa.",
+        "Metalbox no es responsabilitza del mal ús que els usuaris facin dels continguts d'aquest lloc web ni dels danys derivats d'aquest ús."
+      ]
+    },
+    "privacidad": {
+      "title": "Política de Privacitat",
+      "body": [
+        "Responsable del tractament: Metalbox Prefabricados Modulares S.L.",
+        "Finalitat: gestionar les sol·licituds de pressupost i consultes rebudes a través dels formularis d'aquest lloc web, així com la relació comercial derivada.",
+        "Legitimació: consentiment de l'interessat (art. 6.1.a RGPD) i mesures precontractuals (art. 6.1.b RGPD).",
+        "Conservació: les dades es conservaran durant el temps necessari per atendre la sol·licitud i les obligacions legals aplicables.",
+        "Drets: pot exercir els seus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat escrivint a administracion@metalboxprefabricados.com.",
+        "No se cediran dades a tercers llevat d'obligació legal."
+      ]
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "body": [
+        "Aquest lloc web utilitza cookies tècniques necessàries per al seu funcionament i, amb consentiment previ, cookies analítiques (Google Analytics) i de màrqueting (Meta Pixel) per mesurar l'ús del lloc i millorar els nostres serveis.",
+        "Pot configurar el seu navegador per bloquejar o eliminar cookies. El rebuig de les cookies no essencials no impedeix la navegació pel lloc.",
+        "Per a més informació o per retirar el seu consentiment, contacti amb administracion@metalboxprefabricados.com."
+      ]
+    }
+  },
+  "solutions": {
+    "construccion-modular": {
+      "name": "Construcció Modular",
+      "tagline": "Construcció industrialitzada: precisió de fàbrica, resultat d'arquitectura",
+      "description": "Edificació mitjançant mòduls prefabricats en entorn controlat i assemblats a l'obra. La industrialització redueix els temps d'execució fins a un 60 %, garanteix precisió mil·limètrica, minimitza l'impacte a l'obra i manté costos i qualitat sota control total, des d'habitatges de disseny fins a edificis complets.",
+      "useCases": [
+        "Habitatges unifamiliars i promocions residencials",
+        "Edificis corporatius i dotacionals",
+        "Ampliacions d'edificis existents",
+        "Projectes claus en mà de qualsevol escala"
+      ],
+      "advantages": [
+        "Terminis fins a un 60 % més curts que l'obra tradicional",
+        "Precisió i qualitat constants de fabricació industrial",
+        "Cost tancat des del projecte, sense desviacions",
+        "Obra neta amb mínim impacte a l'entorn"
+      ],
+      "benefits": [
+        "El seu edifici operatiu i rendible mesos abans",
+        "Un únic interlocutor amb responsabilitat integral",
+        "Flexibilitat per ampliar o reconfigurar en el futur"
+      ]
+    },
+    "colegios-modulares": {
+      "name": "Escoles Modulars",
+      "tagline": "Espais educatius llestos per a l'inici de curs",
+      "description": "Aules prefabricades, ampliacions escolars i centres educatius complets: escoles bressol, escoles, instituts i universitats. Solucions temporals o permanents amb climatització, aïllament acústic i compliment íntegre de la normativa educativa, lliurades respectant el calendari escolar.",
+      "useCases": [
+        "Aules i aularis complets",
+        "Ampliacions de centres existents",
+        "Escoles bressol, instituts i universitats",
+        "Espais educatius temporals o permanents"
+      ],
+      "advantages": [
+        "Lliurament garantit abans de l'inici de curs",
+        "Confort tèrmic i acústic igual o superior a l'aula convencional",
+        "Compliment de normativa educativa i accessibilitat",
+        "Ampliables o retirables segons evolucioni la matrícula"
+      ],
+      "benefits": [
+        "Places escolars disponibles quan es necessiten",
+        "Instal·lació sense interferir en l'activitat del centre",
+        "Inversió flexible davant l'obra tradicional"
+      ]
+    },
+    "contenedores-modulares": {
+      "name": "Contenidors Modulars",
+      "tagline": "Espais versàtils, ràpids i reutilitzables",
+      "description": "Mòduls tipus contenidor per a oficines, magatzems, espais comercials i projectes temporals. La solució més àgil quan es necessita espai operatiu immediat: es fabriquen, es transporten i s'instal·len en temps rècord, i es reubiquen o reutilitzen tantes vegades com el projecte ho exigeixi.",
+      "useCases": [
+        "Oficines i casetes d'obra",
+        "Magatzems i espais logístics",
+        "Punts de venda i espais comercials pop-up",
+        "Projectes temporals i esdeveniments"
+      ],
+      "advantages": [
+        "Instal·lació immediata amb obra civil mínima",
+        "Totalment reutilitzables i reubicables",
+        "Configurables individualment o en conjunts apilats",
+        "Personalització completa d'acabats i instal·lacions"
+      ],
+      "benefits": [
+        "Espai operatiu en dies, no en mesos",
+        "Actiu recuperable que conserva el seu valor",
+        "Escali, traslladi o reconfiguri sense tornar a invertir"
+      ]
+    },
+    "tiny-houses": {
+      "name": "Tiny Houses",
+      "tagline": "Habitatge compacte, disseny contemporani",
+      "description": "Habitatges compactes d'alta qualitat per a turisme, segona residència, lloguer vacacional i allotjament sostenible. Disseny contemporani, materials premium i eficiència energètica en formats optimitzats que converteixen parcel·les i entorns naturals en actius rendibles.",
+      "useCases": [
+        "Allotjaments turístics i glamping",
+        "Segona residència i refugis",
+        "Lloguer vacacional d'alta rotació",
+        "Habitatge auxiliar en parcel·la"
+      ],
+      "advantages": [
+        "Disseny contemporani amb acabats premium",
+        "Eficiència energètica i construcció sostenible",
+        "Instal·lació ràpida amb mínima obra civil",
+        "Formats optimitzats per a màxima habitabilitat"
+      ],
+      "benefits": [
+        "Rendibilitzi el seu sòl amb inversió continguda",
+        "Producte turístic diferencial i molt demandat",
+        "Amortització ràpida davant la construcció convencional"
+      ]
+    },
+    "oficinas-modulares": {
+      "name": "Oficines Modulars",
+      "tagline": "Espais de treball llestos per operar",
+      "description": "Oficines permanents i temporals per a empreses, obra, indústria i administració pública. Espais professionals amb climatització, electricitat, dades i acabats corporatius, lliurats claus en mà en una fracció del termini d'una obra convencional.",
+      "useCases": [
+        "Oficines corporatives permanents",
+        "Casetes i oficines tècniques d'obra",
+        "Espais administratius per a indústria",
+        "Dependències per a administracions públiques"
+      ],
+      "advantages": [
+        "Operatives en setmanes, no en mesos",
+        "Instal·lacions integrades de fàbrica: clima, electricitat i dades",
+        "Ampliables i reconfigurables a mesura que creixi l'equip",
+        "Compra o solució temporal segons la necessitat"
+      ],
+      "benefits": [
+        "Capacitat de treball immediata sense aturar l'activitat",
+        "Inversió escalable i recuperable",
+        "Imatge professional des del primer dia"
+      ]
+    },
+    "naves-industriales": {
+      "name": "Naus Industrials",
+      "tagline": "Superfície productiva en temps rècord",
+      "description": "Naus prefabricades per a logística, producció, emmagatzematge i ampliacions industrials. Estructura metàl·lica d'execució ràpida, llums diàfanes i tancaments d'alta eficiència: edificis productius dissenyats per treballar des del primer dia i créixer amb la seva activitat.",
+      "useCases": [
+        "Centres logístics i de distribució",
+        "Plantes de producció",
+        "Magatzems i ampliacions industrials",
+        "Edificis productius especialitzats"
+      ],
+      "advantages": [
+        "Execució estructural en terminis molt reduïts",
+        "Grans llums diàfanes sense pilars intermedis",
+        "Tancaments d'alta eficiència tèrmica",
+        "Ampliables per fases segons la demanda productiva"
+      ],
+      "benefits": [
+        "Superfície productiva generant ingressos abans",
+        "Cost per metre quadrat optimitzat",
+        "Edifici preparat per evolucionar amb el seu negoci"
+      ]
+    },
+    "sanitarios-modulares": {
+      "name": "Sanitaris Modulars",
+      "tagline": "Infraestructura assistencial i higiènica claus en mà",
+      "description": "Mòduls sanitaris complets: banys, consultes, centres mèdics i clíniques temporals. Acabats de grau sanitari, instal·lacions completes de fontaneria i electricitat i compliment normatiu íntegre, llestos per donar servei des de la seva instal·lació.",
+      "useCases": [
+        "Banys i lavabos complets per a instal·lacions i esdeveniments",
+        "Consultes i espais assistencials",
+        "Centres mèdics i clíniques temporals",
+        "Dotació sanitària per a obres i indústria"
+      ],
+      "advantages": [
+        "Acabats rentables de grau sanitari",
+        "Fontaneria, sanejament i electricitat integrats",
+        "Accessibilitat i normativa sanitària complertes de sèrie",
+        "Instal·lació temporal o permanent"
+      ],
+      "benefits": [
+        "Servei assistencial o higiènic operatiu immediatament",
+        "Sense obres a l'edifici principal",
+        "Solució reubicable segons la demanda"
+      ]
+    },
+    "instalaciones-deportivas": {
+      "name": "Instal·lacions Esportives",
+      "tagline": "Equipament esportiu complet, del vestidor al pavelló",
+      "description": "Vestidors, gimnasos, pavellons auxiliars i espais per a clubs esportius i esdeveniments. Instal·lacions completes amb dutxes, taquilles i zones tècniques, construïdes amb materials d'alta resistència i pensades per a ús intensiu.",
+      "useCases": [
+        "Vestidors per a clubs i instal·lacions municipals",
+        "Gimnasos i sales d'entrenament",
+        "Pavellons i espais esportius auxiliars",
+        "Instal·lacions per a esdeveniments i competicions"
+      ],
+      "advantages": [
+        "Instal·lacions completes: dutxes, taquilles i zones tècniques",
+        "Materials d'alta resistència per a ús intensiu",
+        "Compliment de normativa esportiva i sanitària",
+        "Execució sense interrompre l'activitat del club"
+      ],
+      "benefits": [
+        "Instal·lacions a l'altura del seu club en temps rècord",
+        "Manteniment senzill i econòmic",
+        "Ampliables a mesura que creixi la massa social"
+      ]
+    },
+    "self-storage": {
+      "name": "Self Storage",
+      "tagline": "Centres d'emmagatzematge claus en mà",
+      "description": "Centres de self storage i trasters complets per a operadors, empreses i particulars: des de la implantació i distribució en planta fins a l'execució integral de l'edifici, zones d'atenció al client i accessos. Experiència real en projectes per a operadors nacionals.",
+      "useCases": [
+        "Centres de self storage de nova planta",
+        "Implantació de trasters en edificis existents",
+        "Emmagatzematge per a empreses i particulars",
+        "Ampliació de centres en funcionament"
+      ],
+      "advantages": [
+        "Projecte integral: edifici, distribució i zones de client",
+        "Distribució en planta optimitzada per a màxima rendibilitat per m²",
+        "Execució per fases sense tancar el centre",
+        "Experiència acreditada amb operadors nacionals"
+      ],
+      "benefits": [
+        "Més metres llogables per cada metre construït",
+        "Obertura i facturació en terminis mínims",
+        "Un sol proveïdor per a tot el projecte"
+      ]
+    },
+    "oficinas-de-ventas": {
+      "name": "Oficines de Vendes",
+      "tagline": "La seva promoció mereix un punt de venda a l'altura",
+      "description": "Casetes comercials, oficines per a promocions immobiliàries, punts d'atenció al client i showrooms. Espais de venda amb imatge premium, retolació corporativa i acabats interiors que converteixen visites en reserves, instal·lats directament a la seva promoció.",
+      "useCases": [
+        "Oficines de venda per a promocions immobiliàries",
+        "Showrooms i espais d'exposició",
+        "Punts d'atenció al client",
+        "Casetes comercials per a campanyes"
+      ],
+      "advantages": [
+        "Imatge premium amb retolació corporativa integrada",
+        "Moblada i climatitzada, llesta per vendre",
+        "Instal·lació directa a la promoció o punt de venda",
+        "Reutilitzable a la següent promoció"
+      ],
+      "benefits": [
+        "Punt de venda operatiu mentre dura la comercialització",
+        "La primera impressió que el seu producte necessita",
+        "Actiu comercial que es trasllada de promoció en promoció"
+      ]
+    },
+    "cabinas-de-triaje": {
+      "name": "Cabines de Triatge",
+      "tagline": "Resposta sanitària immediata",
+      "description": "Mòduls sanitaris per a classificació de pacients, emergències, campanyes de vacunació i reforç hospitalari. Dissenyats per a desplegament en terminis d'emergència, amb acabats sanitaris, climatització amb renovació d'aire i circulacions diferenciades per a pacients i personal.",
+      "useCases": [
+        "Triatge i classificació de pacients a hospitals",
+        "Dispositius d'emergència sanitària",
+        "Campanyes de vacunació i cribratge",
+        "Reforç temporal de centres de salut"
+      ],
+      "advantages": [
+        "Desplegament i instal·lació en terminis d'emergència",
+        "Superfícies rentables de grau sanitari",
+        "Climatització i ventilació amb renovació d'aire",
+        "Circuits diferenciats per a pacients i personal"
+      ],
+      "benefits": [
+        "Capacitat assistencial ampliada sense obres al centre",
+        "Instal·lació temporal o permanent segons necessitat",
+        "Compliment sanitari des del primer dia"
+      ]
+    },
+    "camerinos": {
+      "name": "Camerinos",
+      "tagline": "Backstage professional per a qualsevol producció",
+      "description": "Camerinos modulars per a concerts, festivals, esdeveniments esportius, produccions audiovisuals, fires i espectacles. Espais còmodes, climatitzats i amb acabats de nivell, a l'altura dels artistes i equips que els ocupen, instal·lats on la producció ho exigeixi.",
+      "useCases": [
+        "Concerts i festivals",
+        "Produccions audiovisuals i rodatges",
+        "Esdeveniments esportius i fires",
+        "Espectacles i gires"
+      ],
+      "advantages": [
+        "Confort i acabats de nivell professional",
+        "Climatització, il·luminació i mobiliari inclosos",
+        "Muntatge i desmuntatge en terminis de producció",
+        "Configuracions a mida de cada esdeveniment"
+      ],
+      "benefits": [
+        "Backstage resolt sense friccions per a la producció",
+        "Imatge professional davant artistes i equips",
+        "Solució reutilitzable gira rere gira"
+      ]
+    }
+  }
+}

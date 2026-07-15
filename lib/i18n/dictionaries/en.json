@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "home": {
+      "title": "Metalbox Modular Prefabricated Buildings | Modular Construction in Barcelona & Spain",
+      "description": "We design, manufacture and install modular construction for companies, public administrations and residential projects. Over 35 years of experience. Request a quote."
+    },
+    "empresa": {
+      "title": "Company | Metalbox Modular Prefabricated Buildings",
+      "description": "The Metalbox story: over 35 years of modular engineering led by Jesús Rabadán, with projects across Europe, Africa and the Middle East."
+    },
+    "soluciones": {
+      "title": "Modular Solutions | Metalbox",
+      "description": "Modular construction, schools, containers, tiny houses, offices, industrial buildings, sanitary units, sports facilities, self storage, sales offices, triage cabins and dressing rooms."
+    },
+    "proyectos": {
+      "title": "Projects | Metalbox Modular Prefabricated Buildings",
+      "description": "Modular construction projects delivered in Spain and internationally: residential, education, healthcare and industrial."
+    },
+    "faq": {
+      "title": "FAQ | Metalbox Modular Prefabricated Buildings",
+      "description": "Answers to the most common questions about modular construction: lead times, permits, customisation, maintenance and quotes."
+    },
+    "contacto": {
+      "title": "Contact | Metalbox Modular Prefabricated Buildings",
+      "description": "Talk to our team in Barcelona. Phone, WhatsApp and email. Request a quote for your modular project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "company": "Company",
+    "solutions": "Solutions",
+    "projects": "Projects",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "quote": "Request a quote"
+  },
+  "hero": {
+    "title": "Modular construction without limits",
+    "subtitle": "We design, manufacture and install modular solutions for companies, public administrations and residential projects, backed by more than 35 years of industry experience.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "View projects",
+    "scroll": "Discover"
+  },
+  "trust": {
+    "eyebrow": "Why Metalbox",
+    "title": "Engineering that builds trust",
+    "items": [
+      {
+        "title": "Over 35 years of experience",
+        "text": "A proven track record in modular and industrial construction, with technical leadership at every project stage."
+      },
+      {
+        "title": "National and international projects",
+        "text": "Delivery across Spain, Europe, Africa and the Middle East under international quality and safety standards."
+      },
+      {
+        "title": "Modular construction specialists",
+        "text": "One single point of contact from design to handover: controlled manufacturing, reliable lead times, fixed costs."
+      },
+      {
+        "title": "Commitment to quality",
+        "text": "Technical supervision, execution control and documented quality assurance on every delivery."
+      },
+      {
+        "title": "Innovation",
+        "text": "Industrialised, efficient and sustainable building systems that cut lead times and on-site waste."
+      },
+      {
+        "title": "Engineering",
+        "text": "End-to-end planning of resources, logistics and assembly executed with industrial-plant precision."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Solutions",
+    "title": "One building system. Endless applications.",
+    "intro": "Every Metalbox solution is engineered, manufactured in a controlled environment and installed turnkey. Shorter lead times, fewer surprises, more control.",
+    "viewAll": "View all solutions",
+    "card": "View solution"
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "From blueprint to handover, without friction",
+    "steps": [
+      {
+        "title": "We study",
+        "text": "We analyse your needs, the site and applicable regulations to define the optimal solution."
+      },
+      {
+        "title": "We design",
+        "text": "We engineer every module for efficiency, durability and contemporary aesthetics."
+      },
+      {
+        "title": "We manufacture",
+        "text": "Industrialised production in a controlled environment, with consistent quality and guaranteed lead times."
+      },
+      {
+        "title": "We transport",
+        "text": "Logistics planned in detail so every module arrives on site at exactly the right moment."
+      },
+      {
+        "title": "We install",
+        "text": "Fast, clean assembly with technical supervision through to turnkey handover."
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Projects",
+    "title": "Real work. Measurable results.",
+    "intro": "A selection of delivered projects: residential, education, healthcare and industrial.",
+    "filters": {
+      "all": "All",
+      "residential": "Residential",
+      "education": "Education",
+      "health": "Healthcare",
+      "industrial": "Industrial"
+    },
+    "items": [
+      {
+        "title": "Single-family modular home with pool",
+        "category": "residential",
+        "image": "/images/vivienda-modular-1.jpg"
+      },
+      {
+        "title": "Premium modular villa in a coastal setting",
+        "category": "residential",
+        "image": "/images/vivienda-modular-2.jpg"
+      },
+      {
+        "title": "Modular school — complete classroom block",
+        "category": "education",
+        "image": "/images/colegio-modular.jpg"
+      },
+      {
+        "title": "Fully equipped turnkey modular classrooms",
+        "category": "education",
+        "image": "/images/aula-modular-interior.jpg"
+      },
+      {
+        "title": "Sanitary module with shower and washbasin",
+        "category": "health",
+        "image": "/images/modulo-sanitario.jpg"
+      },
+      {
+        "title": "Lifting and installation of modular structure",
+        "category": "industrial",
+        "image": "/images/instalacion-modulo.jpg"
+      },
+      {
+        "title": "Modular dressing rooms and stage spaces",
+        "category": "industrial",
+        "image": "/images/camerino-modular.jpg"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Metalbox",
+    "title": "Thirty-five years building anywhere in the world",
+    "p1": "Metalbox was born from one conviction: modular construction is not an alternative; it is the smartest way to build. Behind that conviction stands a career: that of Jesús Rabadán, founder and project director, with more than 35 years leading modular and industrial construction across three continents.",
+    "p2": "From Congo to Germany, through France, Gabon and Lebanon, Jesús has led multidisciplinary teams in some of the most demanding environments there are: industrial plants, emergency healthcare projects, modular building in complex logistical contexts. That experience now defines the Metalbox standard: technical rigour, deadlines met, and solutions that work in the real world.",
+    "p3": "Every Metalbox project is run with the same philosophy: technical excellence, transparent communication and solid, sustainable results. We don't promise. We deliver.",
+    "quote": "My commitment is to bring experience, rigour and leadership to turn every project into a solid, sustainable result.",
+    "quoteAuthor": "Jesús Rabadán · Founder",
+    "timelineTitle": "International track record",
+    "timeline": [
+      {
+        "year": "2011",
+        "place": "Congo",
+        "text": "Team supervision and delivery of technical projects in modular and industrial construction."
+      },
+      {
+        "year": "2013",
+        "place": "France",
+        "text": "Site management of modular and industrial projects, team coordination and quality control."
+      },
+      {
+        "year": "2015",
+        "place": "Gabon",
+        "text": "Management and delivery of industrial projects in complex logistical environments."
+      },
+      {
+        "year": "2021",
+        "place": "Lebanon",
+        "text": "Leadership of modular construction projects and optimisation of multidisciplinary resources."
+      },
+      {
+        "year": "2025",
+        "place": "Germany",
+        "text": "Assemblies in gas plants and specialised industrial projects, team leadership."
+      }
+    ],
+    "cta": "Let's talk about your project"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Everything you need to know",
+    "items": [
+      {
+        "q": "What is modular construction?",
+        "a": "An industrialised building system in which buildings are manufactured in modules in a controlled environment and assembled at their final location. The result: lead times up to 60% shorter, fixed costs and a consistent quality impossible to guarantee on a traditional site."
+      },
+      {
+        "q": "How long does a modular construction project take?",
+        "a": "It depends on floor area and finish level, but as a reference: a standard module can be installed within weeks and a complete building within a few months. Factory production overlaps with foundation work, dramatically reducing the overall schedule."
+      },
+      {
+        "q": "Can a modular building be customised?",
+        "a": "Completely. Layout, façades, joinery, services, interior finishes and equipment are all designed to each client's specification. Industrialisation standardises the process, not the design."
+      },
+      {
+        "q": "What permits do I need?",
+        "a": "The same as traditional construction when the building is permanent: a building permit and technical project. For temporary installations the process is usually faster. We advise you throughout the administrative process."
+      },
+      {
+        "q": "Do you manufacture throughout Spain?",
+        "a": "Yes. We manufacture, deliver and install nationwide, with our logistics base in Barcelona, and we have proven experience in international projects."
+      },
+      {
+        "q": "Do you work for companies and public administrations?",
+        "a": "Yes. Companies, public administrations and private clients. We have extensive experience in tenders and institutional projects: schools, healthcare centres, changing facilities and industrial buildings."
+      },
+      {
+        "q": "Do you deliver turnkey projects?",
+        "a": "It is our speciality: study, design, manufacturing, transport and installation with a single point of contact and full responsibility for the result."
+      },
+      {
+        "q": "Do you build complete buildings?",
+        "a": "Yes. From individual modules to complete multi-storey buildings: classroom blocks, residences, offices, healthcare centres and special projects."
+      },
+      {
+        "q": "What maintenance does a modular building require?",
+        "a": "The same as any quality conventional building: periodic checks of services and envelope. Industrialised materials are highly durable and interventions are simpler and more economical."
+      },
+      {
+        "q": "How can I request a quote?",
+        "a": "Click any \"Request a quote\" button on this website and complete the form, call us on +34 638 71 21 08, or write to administracion@metalboxprefabricados.com. We will respond with a proposal tailored to your project."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Need a modular solution?",
+    "text": "Tell us about your project and we will send you a technical and financial proposal, free of obligation.",
+    "button": "Request your quote",
+    "secondary": "Ask for advice"
+  },
+  "form": {
+    "title": "Request a quote",
+    "subtitle": "Complete the form and our team will respond with a tailored proposal.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "clientType": "Client type",
+    "clientParticular": "Private client",
+    "clientCompany": "Company",
+    "companyName": "Company name",
+    "address": "Address",
+    "location": "Location",
+    "province": "Province",
+    "projectType": "Project type",
+    "projectTypes": {
+      "vivienda-modular": "Modular home",
+      "construccion-modular": "Modular construction",
+      "oficinas": "Offices",
+      "cabinas-de-triaje": "Triage cabins",
+      "vestuarios": "Changing rooms",
+      "colegios": "Schools",
+      "hospitales": "Hospitals",
+      "otros": "Other"
+    },
+    "area": "Area",
+    "areas": {
+      "lt100": "Under 100 m²",
+      "100-500": "Between 100 and 500 m²",
+      "500-1000": "Between 500 and 1000 m²",
+      "gt1000": "Over 1000 m²"
+    },
+    "message": "Message",
+    "rgpd": "I have read and accept the privacy policy and the processing of my data under the GDPR.",
+    "submit": "Request a quote",
+    "sending": "Sending…",
+    "success": "Request sent successfully. Our team will contact you shortly.",
+    "error": "The request could not be sent. Please try again or write to administracion@metalboxprefabricados.com.",
+    "required": "Required field",
+    "close": "Close"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "intro": "Our technical team is available Monday to Friday. Call us, write to us or request a quote directly.",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Location",
+    "scheduleLabel": "Opening hours",
+    "schedule": "Monday to Friday · 8:00 – 18:00",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Send email",
+    "person": "Jesús Rabadán · Project management"
+  },
+  "solutionPage": {
+    "advantages": "Advantages",
+    "benefits": "Benefits",
+    "gallery": "Gallery",
+    "ctaTitle": "Is this your project?",
+    "ctaText": "Request a technical and financial proposal tailored to your needs.",
+    "backToSolutions": "All solutions",
+    "useCases": "Use cases"
+  },
+  "footer": {
+    "description": "Design, manufacturing and installation of modular construction for companies, public administrations and residential projects. Over 35 years of national and international experience.",
+    "quickLinks": "Quick links",
+    "solutions": "Solutions",
+    "legal": "Legal",
+    "legalNotice": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "cookiesPolicy": "Cookie Policy",
+    "rights": "All rights reserved.",
+    "follow": "Follow us"
+  },
+  "cookies": {
+    "text": "We use first- and third-party cookies to analyse browsing and improve our services. You can accept all cookies or reject non-essential ones.",
+    "accept": "Accept all",
+    "reject": "Reject non-essential",
+    "more": "More information"
+  },
+  "widgets": {
+    "whatsappLabel": "Open WhatsApp",
+    "callLabel": "Call by phone",
+    "emailLabel": "Send email",
+    "topLabel": "Back to top"
+  },
+  "legalPages": {
+    "aviso": {
+      "title": "Legal Notice",
+      "body": [
+        "Owner: Metalbox Prefabricados Modulares S.L. · Barcelona, Spain.",
+        "Contact: administracion@metalboxprefabricados.com · Tel. +34 638 71 21 08.",
+        "Access to and use of this website confers the status of user and implies acceptance of these conditions. The content, trademarks, logos and images on this site are the property of Metalbox Prefabricados Modulares S.L. or their rightful owners; reproduction without express authorisation is prohibited.",
+        "Metalbox is not responsible for any misuse of the content of this website by users or for damages arising from such use."
+      ]
+    },
+    "privacidad": {
+      "title": "Privacy Policy",
+      "body": [
+        "Data controller: Metalbox Prefabricados Modulares S.L.",
+        "Purpose: to manage quote requests and enquiries received through the forms on this website, and any resulting commercial relationship.",
+        "Legal basis: the data subject's consent (art. 6.1.a GDPR) and pre-contractual measures (art. 6.1.b GDPR).",
+        "Retention: data will be kept for as long as necessary to handle the request and comply with applicable legal obligations.",
+        "Rights: you may exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to administracion@metalboxprefabricados.com.",
+        "Data will not be transferred to third parties except where legally required."
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "body": [
+        "This website uses technical cookies necessary for its operation and, with prior consent, analytics cookies (Google Analytics) and marketing cookies (Meta Pixel) to measure site usage and improve our services.",
+        "You can configure your browser to block or delete cookies. Rejecting non-essential cookies does not prevent you from browsing the site.",
+        "For more information or to withdraw your consent, contact administracion@metalboxprefabricados.com."
+      ]
+    }
+  },
+  "solutions": {
+    "construccion-modular": {
+      "name": "Modular Construction",
+      "tagline": "Industrialised building: factory precision, architectural results",
+      "description": "Construction using prefabricated modules built in a controlled environment and assembled on site. Industrialisation cuts delivery times by up to 60%, guarantees millimetric precision, minimises on-site impact and keeps costs and quality under total control — from design-led homes to complete buildings.",
+      "useCases": [
+        "Single-family homes and residential developments",
+        "Corporate and public buildings",
+        "Extensions to existing buildings",
+        "Turnkey projects at any scale"
+      ],
+      "advantages": [
+        "Lead times up to 60% shorter than traditional construction",
+        "Consistent industrial precision and quality",
+        "Fixed cost from the design stage, no deviations",
+        "Clean sites with minimal environmental impact"
+      ],
+      "benefits": [
+        "Your building operational and profitable months earlier",
+        "One single point of contact with full responsibility",
+        "Flexibility to extend or reconfigure in the future"
+      ]
+    },
+    "colegios-modulares": {
+      "name": "Modular Schools",
+      "tagline": "Educational spaces ready for the school year",
+      "description": "Prefabricated classrooms, school extensions and complete educational centres: nurseries, schools, secondary schools and universities. Temporary or permanent solutions with climate control, acoustic insulation and full compliance with education regulations, delivered around the academic calendar.",
+      "useCases": [
+        "Classrooms and complete classroom blocks",
+        "Extensions to existing schools",
+        "Nurseries, secondary schools and universities",
+        "Temporary or permanent educational spaces"
+      ],
+      "advantages": [
+        "Guaranteed delivery before the school year starts",
+        "Thermal and acoustic comfort equal or superior to conventional classrooms",
+        "Compliance with education and accessibility regulations",
+        "Expandable or removable as enrolment evolves"
+      ],
+      "benefits": [
+        "School places available when they are needed",
+        "Installation without disrupting school activity",
+        "Flexible investment versus traditional construction"
+      ]
+    },
+    "contenedores-modulares": {
+      "name": "Modular Containers",
+      "tagline": "Versatile, fast, reusable space",
+      "description": "Container-type modules for offices, warehouses, retail spaces and temporary projects. The fastest solution when operational space is needed immediately: manufactured, transported and installed in record time, and relocated or reused as many times as the project demands.",
+      "useCases": [
+        "Site offices and cabins",
+        "Warehouses and logistics space",
+        "Pop-up retail and commercial spaces",
+        "Temporary projects and events"
+      ],
+      "advantages": [
+        "Immediate installation with minimal groundwork",
+        "Fully reusable and relocatable",
+        "Configurable individually or in stacked assemblies",
+        "Complete customisation of finishes and services"
+      ],
+      "benefits": [
+        "Operational space in days, not months",
+        "A recoverable asset that retains its value",
+        "Scale, relocate or reconfigure without reinvesting"
+      ]
+    },
+    "tiny-houses": {
+      "name": "Tiny Houses",
+      "tagline": "Compact living, contemporary design",
+      "description": "High-quality compact homes for tourism, second residences, holiday rentals and sustainable accommodation. Contemporary design, premium materials and energy efficiency in optimised formats that turn plots and natural settings into profitable assets.",
+      "useCases": [
+        "Tourist accommodation and glamping",
+        "Second homes and retreats",
+        "High-turnover holiday rentals",
+        "Auxiliary dwellings on private plots"
+      ],
+      "advantages": [
+        "Contemporary design with premium finishes",
+        "Energy efficiency and sustainable construction",
+        "Fast installation with minimal groundwork",
+        "Optimised formats for maximum liveability"
+      ],
+      "benefits": [
+        "Monetise your land with contained investment",
+        "A differentiated, in-demand tourism product",
+        "Faster payback than conventional construction"
+      ]
+    },
+    "oficinas-modulares": {
+      "name": "Modular Offices",
+      "tagline": "Workspaces ready to operate",
+      "description": "Permanent and temporary offices for companies, construction sites, industry and public administration. Professional spaces with climate control, power, data and corporate finishes, delivered turnkey in a fraction of the time of a conventional build.",
+      "useCases": [
+        "Permanent corporate offices",
+        "Site offices and technical cabins",
+        "Administrative space for industry",
+        "Facilities for public administrations"
+      ],
+      "advantages": [
+        "Operational in weeks, not months",
+        "Factory-integrated services: HVAC, power and data",
+        "Expandable and reconfigurable as your team grows",
+        "Purchase or temporary solutions as required"
+      ],
+      "benefits": [
+        "Immediate working capacity without stopping your business",
+        "A scalable, recoverable investment",
+        "A professional image from day one"
+      ]
+    },
+    "naves-industriales": {
+      "name": "Industrial Buildings",
+      "tagline": "Productive floor space in record time",
+      "description": "Prefabricated industrial buildings for logistics, production, storage and industrial extensions. Fast-build steel structures, clear spans and high-efficiency envelopes: productive buildings designed to work from day one and grow with your activity.",
+      "useCases": [
+        "Logistics and distribution centres",
+        "Production plants",
+        "Warehouses and industrial extensions",
+        "Specialised productive buildings"
+      ],
+      "advantages": [
+        "Structural delivery on very short timescales",
+        "Large clear spans without intermediate columns",
+        "High thermal-efficiency envelopes",
+        "Phased expansion in line with production demand"
+      ],
+      "benefits": [
+        "Productive floor space generating revenue sooner",
+        "Optimised cost per square metre",
+        "A building ready to evolve with your business"
+      ]
+    },
+    "sanitarios-modulares": {
+      "name": "Modular Sanitary Units",
+      "tagline": "Turnkey care and hygiene infrastructure",
+      "description": "Complete sanitary modules: bathrooms, consultation rooms, medical centres and temporary clinics. Healthcare-grade finishes, complete plumbing and electrical installations and full regulatory compliance, ready to serve from installation.",
+      "useCases": [
+        "Complete bathrooms for facilities and events",
+        "Consultation and care spaces",
+        "Medical centres and temporary clinics",
+        "Sanitary facilities for construction sites and industry"
+      ],
+      "advantages": [
+        "Washable healthcare-grade finishes",
+        "Integrated plumbing, drainage and electrics",
+        "Accessibility and health regulations met as standard",
+        "Temporary or permanent installation"
+      ],
+      "benefits": [
+        "Care or hygiene services operational immediately",
+        "No works inside the main building",
+        "A relocatable solution as demand changes"
+      ]
+    },
+    "instalaciones-deportivas": {
+      "name": "Sports Facilities",
+      "tagline": "Complete sports equipment, from changing room to pavilion",
+      "description": "Changing rooms, gyms, auxiliary pavilions and spaces for sports clubs and events. Complete facilities with showers, lockers and technical areas, built with high-resistance materials and designed for intensive use.",
+      "useCases": [
+        "Changing rooms for clubs and municipal facilities",
+        "Gyms and training rooms",
+        "Pavilions and auxiliary sports spaces",
+        "Facilities for events and competitions"
+      ],
+      "advantages": [
+        "Complete facilities: showers, lockers and technical areas",
+        "High-resistance materials for intensive use",
+        "Compliance with sports and health regulations",
+        "Delivery without interrupting club activity"
+      ],
+      "benefits": [
+        "Facilities worthy of your club in record time",
+        "Simple, economical maintenance",
+        "Expandable as your membership grows"
+      ]
+    },
+    "self-storage": {
+      "name": "Self Storage",
+      "tagline": "Turnkey storage centres",
+      "description": "Complete self-storage centres and storage units for operators, companies and private clients: from layout planning and floor distribution to full building delivery, customer areas and access systems. Real experience in projects for national operators.",
+      "useCases": [
+        "New-build self-storage centres",
+        "Storage-unit fit-outs in existing buildings",
+        "Storage for companies and private clients",
+        "Expansion of operating centres"
+      ],
+      "advantages": [
+        "Integral projects: building, layout and customer areas",
+        "Floor layouts optimised for maximum revenue per m²",
+        "Phased delivery without closing the centre",
+        "Proven experience with national operators"
+      ],
+      "benefits": [
+        "More lettable metres for every metre built",
+        "Opening and billing on minimal timescales",
+        "One supplier for the entire project"
+      ]
+    },
+    "oficinas-de-ventas": {
+      "name": "Sales Offices",
+      "tagline": "Your development deserves a point of sale to match",
+      "description": "Commercial cabins, sales offices for property developments, customer service points and showrooms. Sales spaces with a premium image, corporate branding and interior finishes that turn visits into reservations, installed directly at your development.",
+      "useCases": [
+        "Sales offices for property developments",
+        "Showrooms and exhibition spaces",
+        "Customer service points",
+        "Commercial cabins for campaigns"
+      ],
+      "advantages": [
+        "Premium image with integrated corporate branding",
+        "Furnished and climate-controlled, ready to sell",
+        "Installed directly at the development or point of sale",
+        "Reusable at your next development"
+      ],
+      "benefits": [
+        "A sales point operational throughout the campaign",
+        "The first impression your product needs",
+        "A commercial asset that moves from development to development"
+      ]
+    },
+    "cabinas-de-triaje": {
+      "name": "Triage Cabins",
+      "tagline": "Immediate healthcare response",
+      "description": "Sanitary modules for patient triage, emergencies, vaccination campaigns and hospital reinforcement. Designed for deployment on emergency timescales, with healthcare-grade finishes, climate control with air renewal and segregated circulation for patients and staff.",
+      "useCases": [
+        "Patient triage and classification at hospitals",
+        "Health emergency deployments",
+        "Vaccination and screening campaigns",
+        "Temporary reinforcement of health centres"
+      ],
+      "advantages": [
+        "Deployment and installation on emergency timescales",
+        "Washable healthcare-grade surfaces",
+        "HVAC and ventilation with air renewal",
+        "Segregated circulation for patients and staff"
+      ],
+      "benefits": [
+        "Expanded care capacity without works inside the centre",
+        "Temporary or permanent installation as needed",
+        "Healthcare compliance from day one"
+      ]
+    },
+    "camerinos": {
+      "name": "Dressing Rooms",
+      "tagline": "Professional backstage for any production",
+      "description": "Modular dressing rooms for concerts, festivals, sports events, audiovisual productions, trade fairs and shows. Comfortable, climate-controlled spaces with premium finishes, worthy of the artists and crews who use them, installed wherever the production requires.",
+      "useCases": [
+        "Concerts and festivals",
+        "Audiovisual productions and shoots",
+        "Sports events and trade fairs",
+        "Shows and tours"
+      ],
+      "advantages": [
+        "Professional-grade comfort and finishes",
+        "Climate control, lighting and furniture included",
+        "Assembly and dismantling on production timescales",
+        "Configurations tailored to each event"
+      ],
+      "benefits": [
+        "Backstage solved without friction for the production",
+        "A professional image for artists and crews",
+        "A reusable solution, tour after tour"
+      ]
+    }
+  }
+}
