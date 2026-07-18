@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
-import nodemailer from "nodemailer";
-import { site } from "@/lib/site";
+import { Resend } from "resend";
 
 interface QuotePayload {
   name?: string;
@@ -17,6 +16,21 @@ interface QuotePayload {
   rgpd?: string;
 }
 
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function row(label: string, value?: string): string {
+  return `<tr>
+    <td style="padding:8px 12px;border:1px solid #e5e5e5;background:#f5f5f4;font-weight:600;white-space:nowrap;">${label}</td>
+    <td style="padding:8px 12px;border:1px solid #e5e5e5;">${value ? escapeHtml(value) : "—"}</td>
+  </tr>`;
+}
+
 export async function POST(request: Request) {
   let data: QuotePayload;
   try {
@@ -29,60 +43,72 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: "missing_fields" }, { status: 400 });
   }
 
-  const lines = [
-    `Nombre: ${data.name}`,
-    `Email: ${data.email}`,
-    `Teléfono: ${data.phone}`,
-    `Tipo de cliente: ${data.clientType ?? "-"}`,
-    data.companyName ? `Empresa: ${data.companyName}` : null,
-    data.companyAddress ? `Dirección empresa: ${data.companyAddress}` : null,
-    `Ubicación: ${data.location ?? "-"}`,
-    `Provincia: ${data.province ?? "-"}`,
-    `Tipo de proyecto: ${data.projectType ?? "-"}`,
-    `Área: ${data.area ?? "-"}`,
-    "",
-    "Mensaje:",
-    data.message ?? "-",
-  ].filter(Boolean);
-try {
-  await fetch("https://services.leadconnectorhq.com/hooks/6Nw9oiibGb2OtdxH7EcY/webhook-trigger/fb436902-c820-4d95-b167-7b583a0006a2", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-} catch (error) {
-  console.error("Error enviando a GoHighLevel:", error);
-}
-  const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_SECURE, QUOTE_TO } = process.env;
+  const { RESEND_API_KEY, MAIL_FROM, MAIL_TO } = process.env;
 
-  // SMTP preparado: si no hay credenciales configuradas, registramos la solicitud
-  // y devolvemos OK para no bloquear el negocio en entornos de staging.
-  if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
-    console.info("[quote] SMTP no configurado. Solicitud recibida:\n" + lines.join("\n"));
-    return NextResponse.json({ ok: true, delivered: false });
+  if (!RESEND_API_KEY || !MAIL_FROM || !MAIL_TO) {
+    console.error("[quote] Resend no configurado: faltan RESEND_API_KEY, MAIL_FROM o MAIL_TO");
+    return NextResponse.json({ ok: false, error: "resend_not_configured" }, { status: 500 });
+  }
+
+  const resend = new Resend(RESEND_API_KEY);
+
+  const adminHtml = `
+  <div style="font-family:Arial,Helvetica,sans-serif;color:#0a0a0b;max-width:640px;">
+    <h2 style="margin:0 0 4px;">Nueva solicitud de presupuesto</h2>
+    <p style="margin:0 0 20px;color:#555;">Recibida desde el formulario web de Metalbox.</p>
+    <table style="border-collapse:collapse;width:100%;font-size:14px;">
+      ${row("Nombre", data.name)}
+      ${row("Email", data.email)}
+      ${row("Teléfono", data.phone)}
+      ${row("Tipo de cliente", data.clientType)}
+      ${row("Empresa", data.companyName)}
+      ${row("Dirección empresa", data.companyAddress)}
+      ${row("Ubicación", data.location)}
+      ${row("Provincia", data.province)}
+      ${row("Tipo de proyecto", data.projectType)}
+      ${row("Área", data.area)}
+      ${row("RGPD aceptado", data.rgpd ? "Sí" : "No")}
+      ${row("Mensaje", data.message)}
+    </table>
+  </div>`;
+
+  const confirmationHtml = `
+  <div style="font-family:Arial,Helvetica,sans-serif;color:#0a0a0b;max-width:640px;line-height:1.6;">
+    <p>Gracias por contactar con Metalbox.</p>
+    <p>Hemos recibido correctamente su solicitud de presupuesto.</p>
+    <p>Nuestro equipo revisará la información y se pondrá en contacto con usted lo antes posible.</p>
+    <p>Atentamente,<br/>Metalbox Prefabricados</p>
+  </div>`;
+
+  try {
+    const { error } = await resend.emails.send({
+      from: MAIL_FROM,
+      to: MAIL_TO,
+      replyTo: data.email,
+      subject: "Nueva solicitud de presupuesto - Metalbox",
+      html: adminHtml,
+    });
+
+    if (error) {
+      console.error("[quote] Error de Resend enviando al administrador", error);
+      return NextResponse.json({ ok: false, error: "resend_error" }, { status: 500 });
+    }
+  } catch (error) {
+    console.error("[quote] Error enviando email al administrador", error);
+    return NextResponse.json({ ok: false, error: "resend_error" }, { status: 500 });
   }
 
   try {
-    const transporter = nodemailer.createTransport({
-      host: SMTP_HOST,
-      port: Number(SMTP_PORT ?? 465),
-      secure: (SMTP_SECURE ?? "true") === "true",
-      auth: { user: SMTP_USER, pass: SMTP_PASS },
+    await resend.emails.send({
+      from: MAIL_FROM,
+      to: data.email,
+      subject: "Hemos recibido su solicitud",
+      html: confirmationHtml,
     });
-
-    await transporter.sendMail({
-      from: `"Web Metalbox" <${SMTP_USER}>`,
-      to: QUOTE_TO ?? site.email,
-      replyTo: data.email,
-      subject: `Solicitud de presupuesto — ${data.projectType ?? "proyecto"} (${data.name})`,
-      text: lines.join("\n"),
-    });
-
-    return NextResponse.json({ ok: true, delivered: true });
   } catch (error) {
-    console.error("[quote] Error enviando email", error);
-    return NextResponse.json({ ok: false, error: "smtp_error" }, { status: 502 });
+    // La solicitud ya está entregada al equipo; el fallo de la confirmación no debe perder el lead.
+    console.error("[quote] Error enviando confirmación al cliente", error);
   }
+
+  return NextResponse.json({ ok: true });
 }
