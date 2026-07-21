@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
+import { sendGAEvent } from "@next/third-parties/google";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
 type Status = "idle" | "sending" | "success" | "error";
@@ -27,7 +28,16 @@ export default function QuoteForm({
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      setStatus(res.ok ? "success" : "error");
+      if (res.ok) {
+        setStatus("success");
+        sendGAEvent("event", "generate_lead", {
+          form_id: "quote_form",
+          project_type: data.projectType,
+          client_type: data.clientType,
+        });
+      } else {
+        setStatus("error");
+      }
     } catch {
       setStatus("error");
     }
