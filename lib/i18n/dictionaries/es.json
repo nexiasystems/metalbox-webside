@@ -1,16 +1,16 @@
 {
   "meta": {
     "home": {
-      "title": "Metalbox Prefabricados Modulares | Construcción Modular en Barcelona y España",
-      "description": "Diseñamos, fabricamos e instalamos construcción modular para empresas, administraciones públicas y proyectos residenciales. Más de 35 años de experiencia. Solicite presupuesto."
+      "title": "Montaje y Ejecución de Construcción Modular | Metalbox",
+      "description": "Ejecutamos e instalamos proyectos de construcción modular para fabricantes, constructoras, ingenierías, administraciones y empresas. Más de 35 años de experiencia. Solicite información."
     },
     "empresa": {
       "title": "Empresa | Metalbox Prefabricados Modulares",
       "description": "La historia de Metalbox: más de 35 años de ingeniería modular liderada por Jesús Rabadán, con proyectos en Europa, África y Oriente Medio."
     },
     "soluciones": {
-      "title": "Soluciones Modulares | Metalbox Prefabricados",
-      "description": "Construcción modular, colegios, contenedores, tiny houses, oficinas, naves industriales, sanitarios, instalaciones deportivas, self storage, oficinas de ventas, cabinas de triaje y camerinos."
+      "title": "Soluciones de Montaje Modular para Empresas | Metalbox",
+      "description": "13 soluciones de montaje e instalación modular para fabricantes, constructoras, industria y administración: casetas de obra, oficinas, colegios, sanitarios, naves y más."
     },
     "proyectos": {
       "title": "Proyectos | Metalbox Prefabricados Modulares",
@@ -36,7 +36,7 @@
   },
   "hero": {
     "title": "Construcción modular sin límites",
-    "subtitle": "Diseñamos, fabricamos e instalamos soluciones modulares para empresas, administraciones públicas y proyectos residenciales con la experiencia de más de 35 años en el sector.",
+    "subtitle": "Transformamos proyectos de construcción modular en instalaciones listas para usar, colaborando con fabricantes, constructoras, ingenierías, administraciones públicas y empresas.",
     "ctaPrimary": "Solicitar presupuesto",
     "ctaSecondary": "Ver proyectos",
     "scroll": "Descubrir"
@@ -234,6 +234,10 @@
       {
         "q": "¿Cómo puedo solicitar un presupuesto?",
         "a": "Pulse cualquier botón «Solicitar presupuesto» de esta web y complete el formulario, llámenos al 638 71 21 08 o escríbanos a administracion@metalboxprefabricados.com. Respondemos con una propuesta ajustada a su proyecto."
+      },
+      {
+        "q": "¿Fabricáis vosotros los módulos?",
+        "a": "Metalbox está especializada en el montaje, la instalación y la ejecución de proyectos de construcción modular. Cuando el proyecto lo requiere, trabajamos en colaboración con fabricantes, coordinando y gestionando el proyecto completo de principio a fin con un único interlocutor."
       }
     ]
   },
@@ -363,7 +367,7 @@
     "construccion-modular": {
       "name": "Construcción Modular",
       "tagline": "Construcción industrializada: precisión de fábrica, resultado de arquitectura",
-      "description": "Edificación mediante módulos prefabricados en entorno controlado y ensamblados en obra. La industrialización reduce los tiempos de ejecución hasta un 60 %, garantiza precisión milimétrica, minimiza el impacto en obra y mantiene costes y calidad bajo control total, desde viviendas de diseño hasta edificios completos.",
+      "description": "Edificación mediante módulos prefabricados en entorno controlado y ensamblados en obra. La industrialización reduce los tiempos de ejecución hasta un 60 %, garantiza precisión milimétrica, minimiza el impacto en obra y mantiene costes y calidad bajo control total, desde proyectos singulares hasta edificios completos.",
       "useCases": [
         "Viviendas unifamiliares y promociones residenciales",
         "Edificios corporativos y dotacionales",
@@ -409,7 +413,7 @@
       "tagline": "Espacios versátiles, rápidos y reutilizables",
       "description": "Módulos tipo contenedor para oficinas, almacenes, espacios comerciales y proyectos temporales. La solución más ágil cuando se necesita espacio operativo inmediato: se fabrican, se transportan y se instalan en tiempo récord, y se reubican o reutilizan tantas veces como el proyecto lo exija.",
       "useCases": [
-        "Oficinas y casetas de obra",
+        "Oficinas y módulos comerciales",
         "Almacenes y espacios logísticos",
         "Puntos de venta y espacios comerciales pop-up",
         "Proyectos temporales y eventos"
@@ -424,6 +428,28 @@
         "Espacio operativo en días, no en meses",
         "Activo recuperable que conserva su valor",
         "Escale, traslade o reconfigure sin volver a invertir"
+      ]
+    },
+    "casetas-de-obra": {
+      "name": "Casetas de Obra",
+      "tagline": "El espacio de trabajo de cada obra, listo antes que el primer tajo",
+      "description": "Casetas prefabricadas para equipar el emplazamiento de cualquier obra o proyecto industrial: oficina de obra, vestuarios, comedor y aseos, en módulos independientes o combinados. Se fabrican en planta, se transportan a la parcela y se instalan y conectan a suministros en una sola jornada, listas para que el equipo empiece a trabajar desde el primer día.",
+      "useCases": [
+        "Oficina de obra y dirección facultativa",
+        "Vestuarios y comedor para el personal",
+        "Aseos y módulos de higiene en obra",
+        "Emplazamientos industriales y logísticos temporales"
+      ],
+      "advantages": [
+        "Instalación y conexión a suministros en una sola jornada",
+        "Módulos independientes o combinables según el tamaño de la obra",
+        "Aislamiento térmico y acústico para trabajar todo el año",
+        "Reubicables al finalizar cada fase o proyecto"
+      ],
+      "benefits": [
+        "Equipo de obra operativo desde el primer día",
+        "Un único interlocutor para diseño, transporte e instalación",
+        "Sin obra civil ni permisos complejos para una instalación temporal"
       ]
     },
     "tiny-houses": {

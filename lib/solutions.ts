@@ -2,6 +2,7 @@ export type SolutionSlug =
   | "construccion-modular"
   | "colegios-modulares"
   | "contenedores-modulares"
+  | "casetas-de-obra"
   | "tiny-houses"
   | "oficinas-modulares"
   | "naves-industriales"
@@ -54,8 +55,16 @@ export const solutions: Solution[] = [
       `${base}/contenedores-04.jpg`,
       `${base}/contenedores-02.jpg`,
       `${base}/contenedores-03.jpg`,
-      `${base}/contenedores-06.jpg`,
-      `${base}/contenedores-05.jpg`,
+    ],
+    projectType: "otros",
+  },
+  {
+    slug: "casetas-de-obra",
+    image: `${base}/contenedores-04.jpg`,
+    gallery: [
+      `${base}/contenedores-04.jpg`,
+      `${base}/contenedores-02.jpg`,
+      `${base}/contenedores-03.jpg`,
     ],
     projectType: "otros",
   },

@@ -1,16 +1,16 @@
 {
   "meta": {
     "home": {
-      "title": "Metalbox Prefabricats Modulars | Construcció Modular a Barcelona i Espanya",
-      "description": "Dissenyem, fabriquem i instal·lem construcció modular per a empreses, administracions públiques i projectes residencials. Més de 35 anys d'experiència. Sol·liciti pressupost."
+      "title": "Muntatge i Execució de Construcció Modular | Metalbox",
+      "description": "Executem i instal·lem projectes de construcció modular per a fabricants, constructores, enginyeries, administracions i empreses. Més de 35 anys d'experiència. Sol·liciti informació."
     },
     "empresa": {
       "title": "Empresa | Metalbox Prefabricats Modulars",
       "description": "La història de Metalbox: més de 35 anys d'enginyeria modular liderada per Jesús Rabadán, amb projectes a Europa, Àfrica i l'Orient Mitjà."
     },
     "soluciones": {
-      "title": "Solucions Modulars | Metalbox Prefabricats",
-      "description": "Construcció modular, escoles, contenidors, tiny houses, oficines, naus industrials, sanitaris, instal·lacions esportives, self storage, oficines de vendes, cabines de triatge i camerinos."
+      "title": "Solucions de Muntatge Modular per a Empreses | Metalbox",
+      "description": "13 solucions de muntatge i instal·lació modular per a fabricants, constructores, indústria i administració: casetes d'obra, oficines, escoles, sanitaris, naus i més."
     },
     "proyectos": {
       "title": "Projectes | Metalbox Prefabricats Modulars",
@@ -36,7 +36,7 @@
   },
   "hero": {
     "title": "Construcció modular sense límits",
-    "subtitle": "Dissenyem, fabriquem i instal·lem solucions modulars per a empreses, administracions públiques i projectes residencials amb l'experiència de més de 35 anys al sector.",
+    "subtitle": "Transformem projectes de construcció modular en instal·lacions llestes per usar, col·laborant amb fabricants, constructores, enginyeries, administracions públiques i empreses.",
     "ctaPrimary": "Sol·licitar pressupost",
     "ctaSecondary": "Veure projectes",
     "scroll": "Descobrir"
@@ -234,6 +234,10 @@
       {
         "q": "Com puc sol·licitar un pressupost?",
         "a": "Premi qualsevol botó «Sol·licitar pressupost» d'aquest web i completi el formulari, truqui'ns al 638 71 21 08 o escrigui'ns a administracion@metalboxprefabricados.com. Responem amb una proposta ajustada al seu projecte."
+      },
+      {
+        "q": "Fabriqueu vosaltres els mòduls?",
+        "a": "Metalbox està especialitzada en el muntatge, la instal·lació i l'execució de projectes de construcció modular. Quan el projecte ho requereix, treballem en col·laboració amb fabricants, coordinant i gestionant el projecte complet de principi a fi amb un únic interlocutor."
       }
     ]
   },
@@ -363,7 +367,7 @@
     "construccion-modular": {
       "name": "Construcció Modular",
       "tagline": "Construcció industrialitzada: precisió de fàbrica, resultat d'arquitectura",
-      "description": "Edificació mitjançant mòduls prefabricats en entorn controlat i assemblats a l'obra. La industrialització redueix els temps d'execució fins a un 60 %, garanteix precisió mil·limètrica, minimitza l'impacte a l'obra i manté costos i qualitat sota control total, des d'habitatges de disseny fins a edificis complets.",
+      "description": "Edificació mitjançant mòduls prefabricats en entorn controlat i assemblats a l'obra. La industrialització redueix els temps d'execució fins a un 60 %, garanteix precisió mil·limètrica, minimitza l'impacte a l'obra i manté costos i qualitat sota control total, des de projectes singulars fins a edificis complets.",
       "useCases": [
         "Habitatges unifamiliars i promocions residencials",
         "Edificis corporatius i dotacionals",
@@ -409,7 +413,7 @@
       "tagline": "Espais versàtils, ràpids i reutilitzables",
       "description": "Mòduls tipus contenidor per a oficines, magatzems, espais comercials i projectes temporals. La solució més àgil quan es necessita espai operatiu immediat: es fabriquen, es transporten i s'instal·len en temps rècord, i es reubiquen o reutilitzen tantes vegades com el projecte ho exigeixi.",
       "useCases": [
-        "Oficines i casetes d'obra",
+        "Oficines i mòduls comercials",
         "Magatzems i espais logístics",
         "Punts de venda i espais comercials pop-up",
         "Projectes temporals i esdeveniments"
@@ -424,6 +428,28 @@
         "Espai operatiu en dies, no en mesos",
         "Actiu recuperable que conserva el seu valor",
         "Escali, traslladi o reconfiguri sense tornar a invertir"
+      ]
+    },
+    "casetas-de-obra": {
+      "name": "Casetes d'Obra",
+      "tagline": "L'espai de treball de cada obra, llest abans que la primera tasca",
+      "description": "Casetes prefabricades per equipar l'emplaçament de qualsevol obra o projecte industrial: oficina d'obra, vestidors, menjador i lavabos, en mòduls independents o combinats. Es fabriquen a planta, es transporten a la parcel·la i s'instal·len i connecten a subministraments en una sola jornada, llestes perquè l'equip comenci a treballar des del primer dia.",
+      "useCases": [
+        "Oficina d'obra i direcció facultativa",
+        "Vestidors i menjador per al personal",
+        "Lavabos i mòduls d'higiene a l'obra",
+        "Emplaçaments industrials i logístics temporals"
+      ],
+      "advantages": [
+        "Instal·lació i connexió a subministraments en una sola jornada",
+        "Mòduls independents o combinables segons la mida de l'obra",
+        "Aïllament tèrmic i acústic per treballar tot l'any",
+        "Reubicables en finalitzar cada fase o projecte"
+      ],
+      "benefits": [
+        "Equip d'obra operatiu des del primer dia",
+        "Un únic interlocutor per al disseny, transport i instal·lació",
+        "Sense obra civil ni permisos complexos per a una instal·lació temporal"
       ]
     },
     "tiny-houses": {

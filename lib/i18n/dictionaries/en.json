@@ -1,16 +1,16 @@
 {
   "meta": {
     "home": {
-      "title": "Metalbox Modular Prefabricated Buildings | Modular Construction in Barcelona & Spain",
-      "description": "We design, manufacture and install modular construction for companies, public administrations and residential projects. Over 35 years of experience. Request a quote."
+      "title": "Modular Construction Assembly & Execution | Metalbox",
+      "description": "We execute and install modular construction projects for manufacturers, contractors, engineering firms, public administrations and businesses. Over 35 years of experience. Request information."
     },
     "empresa": {
       "title": "Company | Metalbox Modular Prefabricated Buildings",
       "description": "The Metalbox story: over 35 years of modular engineering led by Jesús Rabadán, with projects across Europe, Africa and the Middle East."
     },
     "soluciones": {
-      "title": "Modular Solutions | Metalbox",
-      "description": "Modular construction, schools, containers, tiny houses, offices, industrial buildings, sanitary units, sports facilities, self storage, sales offices, triage cabins and dressing rooms."
+      "title": "Modular Assembly Solutions for Businesses | Metalbox",
+      "description": "13 modular assembly and installation solutions for manufacturers, contractors, industry and public administration: site cabins, offices, schools, sanitary units, industrial buildings and more."
     },
     "proyectos": {
       "title": "Projects | Metalbox Modular Prefabricated Buildings",
@@ -36,7 +36,7 @@
   },
   "hero": {
     "title": "Modular construction without limits",
-    "subtitle": "We design, manufacture and install modular solutions for companies, public administrations and residential projects, backed by more than 35 years of industry experience.",
+    "subtitle": "We turn modular construction projects into ready-to-use installations, working alongside manufacturers, contractors, engineering firms, public administrations and businesses.",
     "ctaPrimary": "Request a quote",
     "ctaSecondary": "View projects",
     "scroll": "Discover"
@@ -234,6 +234,10 @@
       {
         "q": "How can I request a quote?",
         "a": "Click any \"Request a quote\" button on this website and complete the form, call us on +34 638 71 21 08, or write to administracion@metalboxprefabricados.com. We will respond with a proposal tailored to your project."
+      },
+      {
+        "q": "Do you manufacture the modules yourselves?",
+        "a": "Metalbox specialises in the assembly, installation and execution of modular construction projects. When a project requires it, we work alongside manufacturing partners, coordinating and managing the complete project from start to finish through a single point of contact."
       }
     ]
   },
@@ -363,7 +367,7 @@
     "construccion-modular": {
       "name": "Modular Construction",
       "tagline": "Industrialised building: factory precision, architectural results",
-      "description": "Construction using prefabricated modules built in a controlled environment and assembled on site. Industrialisation cuts delivery times by up to 60%, guarantees millimetric precision, minimises on-site impact and keeps costs and quality under total control — from design-led homes to complete buildings.",
+      "description": "Construction using prefabricated modules built in a controlled environment and assembled on site. Industrialisation cuts delivery times by up to 60%, guarantees millimetric precision, minimises on-site impact and keeps costs and quality under total control — from standalone projects to complete buildings.",
       "useCases": [
         "Single-family homes and residential developments",
         "Corporate and public buildings",
@@ -409,7 +413,7 @@
       "tagline": "Versatile, fast, reusable space",
       "description": "Container-type modules for offices, warehouses, retail spaces and temporary projects. The fastest solution when operational space is needed immediately: manufactured, transported and installed in record time, and relocated or reused as many times as the project demands.",
       "useCases": [
-        "Site offices and cabins",
+        "Offices and commercial modules",
         "Warehouses and logistics space",
         "Pop-up retail and commercial spaces",
         "Temporary projects and events"
@@ -424,6 +428,28 @@
         "Operational space in days, not months",
         "A recoverable asset that retains its value",
         "Scale, relocate or reconfigure without reinvesting"
+      ]
+    },
+    "casetas-de-obra": {
+      "name": "Site Cabins",
+      "tagline": "Every site's workspace, ready before the first task begins",
+      "description": "Prefabricated cabins to equip any construction site or industrial project: site office, changing rooms, canteen and toilets, as standalone or combined modules. Manufactured in our facilities, transported to the plot, and installed and connected to utilities in a single day — ready for the crew to start work from day one.",
+      "useCases": [
+        "Site office and on-site management",
+        "Changing rooms and canteen for staff",
+        "Toilets and hygiene modules on site",
+        "Temporary industrial and logistics sites"
+      ],
+      "advantages": [
+        "Installation and utility connection in a single day",
+        "Standalone or combinable modules depending on site size",
+        "Thermal and acoustic insulation for year-round use",
+        "Relocatable once each phase or project ends"
+      ],
+      "benefits": [
+        "Site crew operational from day one",
+        "A single point of contact for design, transport and installation",
+        "No groundwork or complex permits for a temporary installation"
       ]
     },
     "tiny-houses": {
