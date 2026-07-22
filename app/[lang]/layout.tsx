@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Archivo, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import type { ReactNode } from "react";
 import "@/app/globals.css";
 import Analytics from "@/components/Analytics";
@@ -85,6 +86,18 @@ export default async function LangLayout({
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <body>
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied',
+              analytics_storage: 'denied'
+            });
+          `}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}

@@ -30,6 +30,14 @@ export default function CookieBanner({
     } catch {
       /* storage unavailable */
     }
+    if (typeof window.gtag === "function") {
+      window.gtag("consent", "update", {
+        ad_storage: value === "accepted" ? "granted" : "denied",
+        ad_user_data: value === "accepted" ? "granted" : "denied",
+        ad_personalization: value === "accepted" ? "granted" : "denied",
+        analytics_storage: value === "accepted" ? "granted" : "denied",
+      });
+    }
     setVisible(false);
   }
 
