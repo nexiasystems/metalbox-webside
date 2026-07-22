@@ -4,6 +4,14 @@ import { useState, type FormEvent } from "react";
 import { sendGAEvent } from "@next/third-parties/google";
 import type { Dictionary } from "@/lib/i18n/get-dictionary";
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+const GOOGLE_ADS_CONVERSION_SEND_TO = "AW-18339447748/ltaxCNTS0dQcEMSH96He";
+
 type Status = "idle" | "sending" | "success" | "error";
 
 export default function QuoteForm({
@@ -35,6 +43,11 @@ export default function QuoteForm({
           project_type: data.projectType,
           client_type: data.clientType,
         });
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "conversion", {
+            send_to: GOOGLE_ADS_CONVERSION_SEND_TO,
+          });
+        }
       } else {
         setStatus("error");
       }
